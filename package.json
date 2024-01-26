@@ -1,0 +1,21 @@
+{
+  "name": "rsc-mdx",
+  "type": "module",
+  "main": "dist/index.jsx",
+  "module": "dist/index.jsx",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -r dist && tsc --project tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/react": "^18",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^3.0.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
