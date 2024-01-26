@@ -4,6 +4,14 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "description": "Lightweight MDX rendering for React Server Components, with custom component and plugin support.",
+  "keywords": [
+    "react",
+    "mdx",
+    "react-server-components"
+  ],
+  "repository": "https://github.com/zhangyu1818/rsc-mdx",
+  "author": "zhangyu1818 <hey@zhangyu.dev>",
   "scripts": {
     "build": "rm -rf dist && tsc --project tsconfig.json"
   },
