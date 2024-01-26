@@ -2,6 +2,10 @@ node_modules
 
 # testing
 web/coverage
+web/test-results/
+web/playwright-report/
+web/blob-report/
+web/playwright/.cache/
 
 # next.js
 web/.next/
