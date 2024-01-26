@@ -1,11 +1,11 @@
 {
   "name": "rsc-mdx",
   "type": "module",
-  "main": "dist/index.jsx",
-  "module": "dist/index.jsx",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "rm -r dist && tsc --project tsconfig.json"
+    "build": "rm -rf dist && tsc --project tsconfig.json"
   },
   "devDependencies": {
     "@types/react": "^18",
